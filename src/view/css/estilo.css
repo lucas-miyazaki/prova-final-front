@@ -1,0 +1,83 @@
+:root {
+    --cor1: #f3f3f3;
+    --cor2: #f9f9f9;
+    --cor3: #1c6c6c;
+    --cor4: #dbdbdb;
+    --cor5: #b4b4bc;
+}
+
+img {
+    width: 30rem;
+    margin-left: -10%;
+}
+
+body {
+    background-color: var(--cor3)!important;
+}
+
+section {
+    background-color: var(--cor1);
+    margin: 3.5%;
+    margin-top: 2%;
+}
+
+h2{
+    text-align: center;
+}
+
+.abaUm {
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.tipoEmarca {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.marca {
+    margin-right: 10px; /* ou ajuste conforme necessário */
+}
+
+
+.div_logo{
+    margin-left: 100px;
+}
+
+.div_cadastro{
+    margin: 2% 3% 1% 4;
+    background-color: var(--cor3)!important;
+    padding: 3.5% 6% 2%;
+}
+
+.cadastrar{
+    display: flex;
+    justify-content: center;
+}
+.nav-item{
+    background-color: #f3f3f3;
+    color: #1c6c6c;
+}
+.nav-link{
+    background-color: #b4b4bc;
+    color: #1c6c6c;
+}
+
+.nav-tabs, li {
+    background-color: var(--cor3)!important;
+
+}
+
+.nav-item1 {
+    margin-right: 2px;
+}
+
+.input_cadastrar {
+    width: 50%;
+    border-radius: 5%;
+    margin-top: 5px;
+    border-radius: 10px;
+    color: #1c6c6c;
+}
