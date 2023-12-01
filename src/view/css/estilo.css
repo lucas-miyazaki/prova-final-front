@@ -1,9 +1,9 @@
 :root {
-    --cor1: #f3f3f3;
-    --cor2: #f9f9f9;
+    --cor1: #34cccc;
+    --cor2: #b4b4bc;
     --cor3: #1c6c6c;
-    --cor4: #dbdbdb;
-    --cor5: #b4b4bc;
+    --cor4: #7c7c84;
+    --cor5: #f3f3f3;;
 }
 
 img {
@@ -16,7 +16,7 @@ body {
 }
 
 section {
-    background-color: var(--cor1);
+    background-color: var(--cor5);
     margin: 3.5%;
     margin-top: 2%;
 }
@@ -47,7 +47,7 @@ h2{
 }
 
 .div_cadastro{
-    margin: 2% 3% 1% 4;
+    margin: 3.5%;
     background-color: var(--cor3)!important;
     padding: 3.5% 6% 2%;
 }
@@ -57,13 +57,19 @@ h2{
     justify-content: center;
 }
 .nav-item{
-    background-color: #f3f3f3;
-    color: #1c6c6c;
+    background-color: var(--cor5);
+    color: var(--cor3);
 }
-.nav-link{
-    background-color: #b4b4bc;
-    color: #1c6c6c;
+
+.nav-inativo{
+    background-color: var(--cor2)!important;
+    color: var(--cor3)!important;
 }
+.nav-ativo{
+    background-color: var(--cor5)!important;
+    color: var(--cor3)!important;
+}
+
 
 .nav-tabs, li {
     background-color: var(--cor3)!important;
@@ -79,5 +85,9 @@ h2{
     border-radius: 5%;
     margin-top: 5px;
     border-radius: 10px;
-    color: #1c6c6c;
+    color: black;
+    font-size: 20px;
+}
+a {
+    color: var(--cor3)!important;
 }

@@ -1,9 +1,17 @@
+:root {
+    --cor1: #34cccc;
+    --cor2: #f4fcfc;
+    --cor3: #1c6c6c;
+    --cor4: #7c7c84;
+    --cor5: #f3f3f3;;
+}
+
 .div-tabela {
     width: 100%;
     height: 70%;
-
     overflow: auto;
 }
+
 
 table {
     width: 100%;
@@ -16,19 +24,22 @@ td {
 }
 
 th {
-    border-bottom: 2px solid #777;
-    background-color: #1F1048;
-    color: white;
+    border: 1px solid black;
+    background-color: var(--cor1)!important;
+    color: black;
     text-align: center;
+}
+tr{
+    background-color: var(--cor);
 }
 
 td {
-    border-bottom: 1px solid #ddd;
+    border: 1px solid black;
 }
 
 tr:hover {
-    background-color: #1F1048;
-    color: #EAEAEA;
+    background-color: var(--cor2);
+    color: var(--cor4);
 }
 
 th:last-child {
@@ -42,4 +53,16 @@ img {
 
 img:hover {
     filter: invert(1);
+}
+button {
+    background-color: var(--cor5);
+    padding: 0.5% 2%;
+    border-radius: 25px;
+    margin: 1% 0px 1% 0px;
+    font-size: 20px;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
 }
