@@ -3,7 +3,8 @@
     --cor2: #b4b4bc;
     --cor3: #1c6c6c;
     --cor4: #7c7c84;
-    --cor5: #f3f3f3;;
+    --cor5: #f3f3f3;
+    ;
 }
 
 img {
@@ -12,7 +13,7 @@ img {
 }
 
 body {
-    background-color: var(--cor3)!important;
+    background-color: var(--cor3) !important;
 }
 
 section {
@@ -21,7 +22,7 @@ section {
     margin-top: 2%;
 }
 
-h2{
+h2 {
     text-align: center;
 }
 
@@ -38,41 +39,45 @@ h2{
 }
 
 .marca {
-    margin-right: 10px; /* ou ajuste conforme necessário */
+    margin-right: 10px;
+    /* ou ajuste conforme necessário */
 }
 
 
-.div_logo{
+.div_logo {
     margin-left: 100px;
 }
 
-.div_cadastro{
+.div_cadastro {
     margin: 3.5%;
-    background-color: var(--cor3)!important;
+    background-color: var(--cor3) !important;
     padding: 3.5% 6% 2%;
 }
 
-.cadastrar{
+.cadastrar {
     display: flex;
     justify-content: center;
 }
-.nav-item{
+
+.nav-item {
     background-color: var(--cor5);
     color: var(--cor3);
 }
 
-.nav-inativo{
-    background-color: var(--cor2)!important;
-    color: var(--cor3)!important;
+.nav-inativo {
+    background-color: var(--cor2) !important;
+    color: var(--cor3) !important;
 }
-.nav-ativo{
-    background-color: var(--cor5)!important;
-    color: var(--cor3)!important;
+
+.nav-ativo {
+    background-color: var(--cor5) !important;
+    color: var(--cor3) !important;
 }
 
 
-.nav-tabs, li {
-    background-color: var(--cor3)!important;
+.nav-tabs,
+li {
+    background-color: var(--cor3) !important;
 
 }
 
@@ -88,6 +93,7 @@ h2{
     color: black;
     font-size: 20px;
 }
+
 a {
-    color: var(--cor3)!important;
+    color: var(--cor3) !important;
 }

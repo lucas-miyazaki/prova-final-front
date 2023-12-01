@@ -3,7 +3,8 @@
     --cor2: #f4fcfc;
     --cor3: #1c6c6c;
     --cor4: #7c7c84;
-    --cor5: #f3f3f3;;
+    --cor5: #f3f3f3;
+    ;
 }
 
 .div-tabela {
@@ -25,11 +26,12 @@ td {
 
 th {
     border: 1px solid black;
-    background-color: var(--cor1)!important;
+    background-color: var(--cor1) !important;
     color: black;
     text-align: center;
 }
-tr{
+
+tr {
     background-color: var(--cor);
 }
 
@@ -54,6 +56,7 @@ img {
 img:hover {
     filter: invert(1);
 }
+
 button {
     background-color: var(--cor5);
     padding: 0.5% 2%;
