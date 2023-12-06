@@ -15,9 +15,12 @@ function validarCampos() {
 }
 
 function cadastrar() {
+   
     if (!validarCampos()) {
-        return; // Impede o envio se a validação falhar
+        return;
     }
+    		
+            
 
     console.log('Enviando dados ao servidor...');
 
@@ -71,7 +74,11 @@ function listarVeiculo() {
     fetch(`${url_server}/veiculo`)
         .then(response => response.json())
         .then(data => {
-            const tabela = document.querySelector('table');
+             const tabela = document.querySelector('table');
+            const contadorLinhas = tabela.rows.length;
+            for(var i = contadorLinhas - 1; i > 0; i--) {
+                tabela.deleteRow(i);
+    }
 
             data.forEach(veiculo => {
                 const elementTr = document.createElement('tr');

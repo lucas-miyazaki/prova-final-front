@@ -29,6 +29,7 @@ th {
     background-color: var(--cor1) !important;
     color: black;
     text-align: center;
+    margin-top: 0;
 }
 
 tr {
